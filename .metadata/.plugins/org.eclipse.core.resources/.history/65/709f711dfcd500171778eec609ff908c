@@ -1,0 +1,17 @@
+
+public class UnsingVaribles
+{
+	public static void main(String[] args)
+	{
+		int  This_is_room=0, computer_science = 0;
+		double Subject=0, I_am_learing_a_bit_about=0;
+		
+		
+		This_is_room=113;
+		Subject=2.7812;
+		I_am_learing_a_bit_about=computer_science;
+				
+		
+	}
+
+}

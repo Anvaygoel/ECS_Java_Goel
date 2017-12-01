@@ -1,0 +1,20 @@
+
+public class StillUsingVariables
+{
+	private static final String Anvay = null;
+
+	public static void main(String[] args)
+	{
+		String yourname;
+		int yourgradeyear;
+		
+		yourname = Anvay;
+		yourgradeyear = 2021;
+		
+		System.out.println("My name is " + yourname + " and i'll graduate in " + yourgradeyear + ".");
+		
+		
+		
+	}
+
+}

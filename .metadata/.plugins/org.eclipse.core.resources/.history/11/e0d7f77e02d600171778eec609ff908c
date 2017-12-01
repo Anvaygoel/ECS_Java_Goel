@@ -17,8 +17,7 @@ public class MoreVariablesAndPrinting
 		
 		System.out.println("Let's talk about " + myName + "." );
 		System.out.println("He's " + myHieght + "inches tall.");
-		System.out.println("He's " + myWeight + "pounds heavy");
-		System.out.println();
+		System.out.println("He's ");
 	}
 
 }

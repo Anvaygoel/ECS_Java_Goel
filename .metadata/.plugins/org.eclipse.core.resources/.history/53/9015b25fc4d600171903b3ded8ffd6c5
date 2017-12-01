@@ -16,12 +16,11 @@ public class YourSchedule
 		tech3 = "Thow";
 		tech4 = "Thorton";
 		
-		System.out.println("---------------------------");
 		System.out.println("|Per 1 | " + per1 + " | " + tech1 + "|" );
 		System.out.println("|Per 1 | " + per2 + "     | " + tech2 + "  |" );
 		System.out.println("|Per 1 | " + per3 + " | " + tech3 + "   |" );
 		System.out.println("|Per 1 | " + per4 + "    | " + tech4 + "|" );
-		System.out.println("---------------------------");
+		System.out.println("-----------------------------");
 	}
 
 }

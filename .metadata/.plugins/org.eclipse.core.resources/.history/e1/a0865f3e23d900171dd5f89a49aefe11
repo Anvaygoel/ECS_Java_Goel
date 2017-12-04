@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class DumbCalculator 
+{
+	public static void main(String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int Fnum, Snum, Tnum, average;
+		
+		
+		System.out.println("let's find the average of a few number...");
+		
+		System.out.println("What is the first number?");
+		Fnum = keyboard.nextInt();
+		
+		System.out.println("What is the second number? ");
+		Snum = keyboard.nextInt();
+		
+		System.out.println("What is the third number?");
+		Tnum = keyboard.nextInt();
+		
+		System.out.println("The average of the three numbers is " + average);
+		
+		
+		
+		
+		
+	}
+
+}

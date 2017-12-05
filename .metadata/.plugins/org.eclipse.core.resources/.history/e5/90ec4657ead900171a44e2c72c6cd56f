@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SpaceWeight 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int weight;
+		
+		System.out.println("Please enter your current earth weight");
+		weight = keyboard.nextInt();
+	}
+
+}

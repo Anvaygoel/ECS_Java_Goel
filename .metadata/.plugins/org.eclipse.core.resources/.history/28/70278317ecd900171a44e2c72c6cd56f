@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class SpaceWeight 
+{
+	private static Object user_input;
+
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int planet;
+		double weight;
+		double Venus, mars, jupiter, saturn, uranus, neptune;
+		
+		Venus = .78;
+		mars = .39;
+		jupiter = 2.65;
+		saturn = 1.17;
+		uranus = 1.05;
+		neptune = 1.23;
+		
+		
+		System.out.println("Please enter your current earth weight");
+		weight = keyboard.nextInt();
+		
+		
+		System.out.println(" i have the information for the following planets:");
+		System.out.println(" 1. Venus   2. Mars  3. Jupiter");
+		System.out.println(" 4. saturn  5. uranus  6. Neptune");
+		
+		System.out.println(" Which planet are you visiting? ");
+		planet = keyboard.nextInt();
+		
+		if (user_input.equals("1"))
+		{
+			System.out.println("Your weight would be " + (weight*Venus) + "pounds on that planet." );
+		}
+		
+		
+		
+	}
+
+}

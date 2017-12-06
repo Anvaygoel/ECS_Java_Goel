@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class TwoQuestionJava 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		
+		
+		String Question , Question2;
+		int animal, vegatable, mineral;
+		
+		
+		
+		System.out.println("TWO QUESTIONS!");
+		System.out.println("Think of an object, an i'll tey and guess what it is!");
+		
+		
+		
+		System.out.println(" Question 1) Is it an animal, vegatable or mineral?");
+		Question = keyboard.next();
+		
+		
+		System.out.println("Question 2) It is bigger then a beard box?");
+		Question = keyboard.next();
+		
+		
+		
+		
+		 if ( Question =="animal&&no")
+			{
+				System.out.print("Is is a Squirel?!");
+			}
+		else if ( Question =="animal&&yes")
+			{
+				System.out.print("Is it a moose?");
+			}
+		 if ( Question =="vegatable&&yes")
+			{
+				System.out.print("Is it a carrot?");
+			}
+		 else if ( Question =="vegatable&&no")
+			{
+				System.out.print("Is it a watermelon?");
+			}
+		 if ( Question =="mineral&&yes")
+			{
+				System.out.print("Is it a paper clip?");
+			}
+		 else if ( Question =="mineral&&no")
+			{
+				System.out.print("Is it a camaro?");
+			}
+	}
+
+}

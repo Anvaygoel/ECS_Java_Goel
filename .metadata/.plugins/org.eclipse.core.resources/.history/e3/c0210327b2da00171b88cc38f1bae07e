@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class TwoQuestionJava 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		
+		
+		String Question, Question2;
+		int animal;
+		
+		animal = 1;
+		
+		System.out.println("TWO QUESTIONS!");
+		Question = keyboard.next();
+		
+		
+		
+		System.out.println(" Question 1) Is it an animal, vegatable or mineral?");
+		Question2 = keyboard.next();
+		
+		
+		if ( Question > animal);
+		
+	}
+
+}

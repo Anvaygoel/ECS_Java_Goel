@@ -8,7 +8,8 @@ public class ALittleQuiz
 	{
 		Scanner keyboard = new Scanner(System.in);
 		
-		int answer, answerC = 0, answerW;
+		int answer;
+		int answerC=0, numAnswersCorrect=0;
 		
 		System.out.println("Q1) What is the capital of Alaska?");
 		System.out.println("1) Melbourne");
@@ -18,7 +19,8 @@ public class ALittleQuiz
 		
 		if ( answer >2&&answer<4)
 		{
-			System.out.print("That's correct!");
+			System.out.println("That's correct!");
+			numAnswersCorrect++;
 		}
 		else
 		{
@@ -35,6 +37,7 @@ public class ALittleQuiz
 		if ( answer >1&&answer<3)
 		{
 			System.out.println("That is correct!");
+			numAnswersCorrect++;
 		}
 		else
 		{
@@ -49,25 +52,23 @@ public class ALittleQuiz
 		if ( answer >0&&answer<2)
 		{
 			System.out.println("Thats correct");
+			numAnswersCorrect++;
+			
 		}
 		else
 		{
 			System.out.println(" Sorry that's not correct :(");
-			answer = keyboard.nextInt();
+			
 		}
 		
-		if ( answerC >0&&answerC<2)
-		{
-		System.out.print("Overall, your got 1 out of 3 correct. Thanks for playing!");
-		}
-		if ( answerC >1&&answerC<3)
-		{
-		System.out.print("Overall, your got 1 out of 3 correct. Thanks for playing!");
-		}
-		if ( answerC >2&&answerC<4)
-		{
-		System.out.print("Overall, your got 1 out of 3 correct. Thanks for playing!");
-		}
+		 
+		
+		System.out.print("Overall, your got " + numAnswersCorrect + " out of 3 correct. Thanks for playing!");
+		
+		
+		
+
+		
 		close = keyboard;
 		
 	}

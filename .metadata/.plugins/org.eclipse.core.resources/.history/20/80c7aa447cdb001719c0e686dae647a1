@@ -1,0 +1,21 @@
+import java.util.Random;
+
+public class Dice 
+{
+	public static void main(String[] args)
+	{
+		Random r = new Random();
+		
+		int Roll =  r.nextInt(6);
+		int Roll1 = 0, Roll2 = 0;
+		
+		System.out.println("HERE COMES THE DICE!");
+		System.out.println(" Roll#1: " +  r.nextInt(6));
+		Roll1 ++;
+		System.out.println("Roll#2 : " +  r.nextInt(6));
+		Roll2++;
+		
+		System.out.println("The Total is " + (Roll1+Roll2));
+	}
+
+}

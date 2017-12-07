@@ -1,0 +1,69 @@
+import java.util.Random;
+
+public class Dice 
+{
+	public static void main(String[] args)
+	{
+		Random r = new Random();
+		
+		int Roll =  r.nextInt(6);
+		int Roll1 = 0;
+		
+		System.out.println("HERE COMES THE DICE!");
+		System.out.println(" Roll#1: " +  r.nextInt(6));
+		
+		System.out.println("Roll#2 : " +  r.nextInt(6));
+		
+		
+		if (Roll1 == 1)
+		{
+			System.out.println("The total is " );
+		}
+		if (Roll1 == 2)
+		{
+			System.out.println("The total is 2");
+		}
+		if (Roll1 == 3)
+		{
+			System.out.println("The total is 3");
+		}
+		if (Roll1 == 4)
+		{
+			System.out.println("The total is 4");
+		}
+		if (Roll1 == 5)
+		{
+			System.out.println("The total is 5");
+		}
+		if (Roll1 == 6)
+		{
+			System.out.println("The total is 6");
+		}
+		if (Roll1 == 7)
+		{
+			System.out.println("The total is 7");
+		}
+		if (Roll1 == 8)
+		{
+			System.out.println("The total is 8");
+		}
+		if (Roll1 == 9)
+		{
+			System.out.println("The total is 9");
+		}
+		if (Roll1 == 10)
+		{
+			System.out.println("The total is 10");
+		}
+		if (Roll1 == 11)
+		{
+			System.out.println("The total is 11");
+		}
+		if (Roll1 == 12)
+		{
+			System.out.println("The total is 12");
+		}
+		
+	}
+
+}
